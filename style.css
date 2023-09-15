@@ -58,6 +58,9 @@ form{
 
 h1{
     color: var(--grad-clrl);
+    font-size: xx-large;
+    text-align: center;
+    color: var(--grad-clrl);
 }
 
 .social-container{
