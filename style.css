@@ -13,7 +13,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background: #f6f5f7;
     display: grid;
     place-content: center;
@@ -23,7 +23,7 @@ body {
 .container{
     position: relative;
     width: 850px;
-    height: 500px;
+    height: 650px;
     background-color: #fff;
     box-shadow: 25px 30px 55px #5557;
     border-radius: 13px;
@@ -63,6 +63,13 @@ h1{
     color: var(--grad-clrl);
 }
 
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:9dvh;
+    text-align:center;
+    color: #243B55;
+}
+
 .social-container{
     margin: 20px 0px;
 }
@@ -89,6 +96,13 @@ span{
 }
 
 input{
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+}
+.x{
     width: 100%;
     padding: 12px 15px;
     background-color: #f3f3f3;
@@ -124,6 +138,7 @@ a.forgot{
 }
 
 button{
+    cursor: pointer;
     border-radius: 20px;
     border: 1px solid var(--grad-clr1);
     background: var(--grid-clr2);
@@ -160,7 +175,7 @@ button{
     cursor: pointer;
     position: absolute;
     left: 50%;
-    top: 304px;
+    top: 378px;
     transform: translateX(-50%);
     width: 143.67px;
     height: 40px;
